@@ -1,4 +1,4 @@
-package com.example.theodhor.googleplusintegration;
+package com.example.theodhor.googlesignin;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -9,8 +9,9 @@ import android.widget.ImageView;
 import java.io.InputStream;
 
 /**
- * Created by Dori on 12/5/2015.
+ * Created by Dori on 2/18/2017.
  */
+
 public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
     ImageView bmImage;
 
@@ -35,4 +36,3 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
         bmImage.setImageBitmap(result);
     }
 }
-
