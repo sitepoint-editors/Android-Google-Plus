@@ -1,44 +1,42 @@
 {
   "project_info": {
-    "project_id": "exalted-strata-115109",
-    "project_number": "286242191815",
-    "name": "Google Plus Integration"
+    "project_number": "138298073710",
+    "project_id": "project--2450937804515690889"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:286242191815:android:d2c6db69e0e2ec0b",
-        "client_id": "android:com.theodhor.example.googleplusintegration",
-        "client_type": 1,
+        "mobilesdk_app_id": "1:138298073710:android:e07338ef7726c86a",
         "android_client_info": {
-          "package_name": "com.theodhor.example.googleplusintegration"
+          "package_name": "com.example.theodhor.googlesignin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "286242191815-dh52io0is6o3lpc5ruv35foig3esbd7f.apps.googleusercontent.com",
+          "client_id": "138298073710-a41n4tbui08ju8ff8d1apcaje9vij6gm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.theodhor.example.googleplusintegration",
-            "certificate_hash": "C99FFD8239EDF99F60ED0030F375639A4698C609"
+            "package_name": "com.example.theodhor.googlesignin",
+            "certificate_hash": "97FE23CE68B2F9E4E2952FDE5D104F8DD255AB03"
           }
+        },
+        {
+          "client_id": "138298073710-ntsp5r2592a4l5hlko8h6384chrh38id.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
-      "api_key": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsA9lH_cLEf-sJgXVNlQNGApPO9aDeqBA"
+        }
+      ],
       "services": {
         "analytics_service": {
           "status": 1
         },
-        "cloud_messaging_service": {
-          "status": 1,
-          "apns_config": []
-        },
         "appinvite_service": {
           "status": 1,
           "other_platform_oauth_client": []
-        },
-        "google_signin_service": {
-          "status": 2
         },
         "ads_service": {
           "status": 1
@@ -46,6 +44,5 @@
       }
     }
   ],
-  "client_info": [],
-  "ARTIFACT_VERSION": "1"
+  "configuration_version": "1"
 }
